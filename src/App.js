@@ -6,9 +6,9 @@ export default function App() {
   return (
     <div className="App">
       <div class="container">
-        <Weather />
+        <Weather defaultCity="Taipei" />
         <footer>
-          This project was coded by Matt Delac and is {""}
+          This project was coded by Victoria Lee and is {""}
           <a
             href="https://github.com/vickylcodes/demo-react-weather-app"
             target="_blank"
