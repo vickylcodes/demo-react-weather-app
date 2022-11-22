@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function WeatherIcon(props) {
-  console.log(props.code);
   const codeMapping = {
     "clear-sky-day": "CLEAR_DAY",
     "clear-sky-night": "CLEAR_NIGHT",
@@ -27,3 +26,4 @@ export default function WeatherIcon(props) {
 }
 
 //<img src={props.data.condition.icon} alt={props.data.description} />
+// return <img src={`${props.condition.icon_url}`} alt="Weather icon" />;
